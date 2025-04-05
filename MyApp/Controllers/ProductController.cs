@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyApp.Controllers.Models;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,6 +10,7 @@ namespace MyApp.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
+        
         // GET: api/<ProductController>
         [HttpGet]
         public IEnumerable<string> Get()
